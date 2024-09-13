@@ -88,7 +88,7 @@ As you can see above, the program ran successfully and passed all the tests.
 Run the following command to go inside the container.
 
 ```
-docker-compose run -it app bash
+docker-compose run --rm -it app bash
 ```
 
 Then, run the following command to run `main.ts`.
@@ -106,6 +106,8 @@ To exit the container, just type `exit`.
 ```
 exit
 ```
+
+![exit](exit.png)
 
 ## 5. How to clean up
 
