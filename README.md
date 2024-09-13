@@ -23,22 +23,23 @@ If you face an error saying "WSL 2 installation is incomplete", then you have to
 
 ## For Linux
 
-Go to https://docs.docker.com/desktop/install/linux/ubuntu/ and install **Docker Desktop**.
+If you are on Ubuntu, go to https://docs.docker.com/desktop/install/linux/ubuntu/ and install **Docker Desktop**.
 
 There are some instructions for other Linux distributions, so please follow the instructions on the website to install Docker and Docker Compose.
 
-# Check if you successfully installed Docker & Docker Compose
+# Check if you successfully installed
 
-Run the following command to check the version of Docker & Docker Compose:
+Run the following command to check the version of Docker & Docker Compose.
+
 ```
-$ docker --version
-$ docker-compose --version
+docker --version
+docker-compose --version
 ```
 
 If you could not use the command `docker-compose --version`, then this might work.
 
 ```
-$ docker compose --version
+docker compose --version
 ```
 
 # How to run the program
@@ -46,7 +47,7 @@ $ docker compose --version
 ## 1. Clone this repository
 
 ```
-$ git clone https://github.com/ktsu2i/unit-testing.git
+git clone https://github.com/ktsu2i/unit-testing.git
 ```
 
 ## 2. Run the program
@@ -54,15 +55,15 @@ $ git clone https://github.com/ktsu2i/unit-testing.git
 Go to the cloned repository and run the Docker Compose.
 
 ```
-$ cd unit-testing
-$ docker-compose up --build
+cd unit-testing
+docker-compose up --build
 ```
 
 For the first time to run the program, it might take time to finish building the Docker image.
 After you build the Docker image, you can also run the program with the following command.
 
 ```
-$ docker-compose up
+docker-compose up
 ```
 
 ## 3. See the result
@@ -80,5 +81,5 @@ You may want to clean up the Docker container and Docker image after you finish 
 Run the following command to delete the Docker container.
 
 ```
-$ docker-compose down
+docker-compose down
 ```
