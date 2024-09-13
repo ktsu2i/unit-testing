@@ -101,6 +101,12 @@ You will be asked `Enter string: ` so that you can input string and see the resu
 
 ![run main program](run-main.png)
 
+To exit the container, just type `exit`.
+
+```
+exit
+```
+
 ## 5. How to clean up
 
 You may want to clean up the Docker container and Docker image after you finish the program.
