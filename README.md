@@ -2,6 +2,10 @@
 
 This is an assignment for CIS 3296.
 
+Tech Stack:
+- TypeScript
+- Jest
+
 # Prerequisites
 
 To run this program, you need to have Docker and Docker Compose installed on your machine.
