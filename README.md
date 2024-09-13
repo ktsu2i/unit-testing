@@ -25,7 +25,7 @@ If you face an error saying "WSL 2 installation is incomplete", then you have to
 
 If you are on Ubuntu, go to https://docs.docker.com/desktop/install/linux/ubuntu/ and install **Docker Desktop**.
 
-There are some instructions for other Linux distributions, so please follow the instructions on the website to install Docker and Docker Compose.
+There are some instructions for other Linux distributions, so please follow the instructions on the website to install **Docker** and **Docker Compose**.
 
 # Check if you successfully installed
 
