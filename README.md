@@ -1,10 +1,15 @@
 # CIS 3296 Unit Testing Assignment
 
 This is an assignment for CIS 3296.
+This assignment is to create a program that performs the following tasks:
 
-Tech Stack:
-- TypeScript
-- Jest
+- Accepts a string as input
+- Prints the following statistics:
+  - The total number of characters excluding spaces
+  - The total number of vowels (a, e, i, o, u)
+  - The total number of digits (0-9)
+
+I chose to use **TypeScript** for the language and **Jest** for the testing framework.
 
 # Prerequisites
 
