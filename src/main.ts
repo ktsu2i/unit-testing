@@ -8,7 +8,7 @@ const rl = readline.createInterface({
   output: process.stdout,
 });
 
-rl.question("Enter a string: ", (input) => {
+rl.question("Enter string: ", (input) => {
   console.log("No. of total characters: ", countChars(input));
   console.log("No. of total vowels: ", countVowels(input));
   console.log("No. of total digits: ", countDigits(input));
