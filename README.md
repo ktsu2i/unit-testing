@@ -59,7 +59,7 @@ docker compose --version
 git clone https://github.com/ktsu2i/unit-testing.git
 ```
 
-## 2. Run the program
+## 2. Run the test codes
 
 Go to the cloned repository and run the Docker Compose.
 
@@ -83,7 +83,25 @@ Once you run the program, the docker container automatically ends, but you can s
 
 As you can see above, the program ran successfully and passed all the tests.
 
-## 4. How to clean up
+## 4. How to run the main program
+
+Run the following command to go inside the container.
+
+```
+docker-compose run -it app bash
+```
+
+Then, run the following command to run `main.ts`.
+
+```
+npx ts-node src/main.ts
+```
+
+You will be asked `Enter string: ` so that you can input string and see the result.
+
+![run main program](run-main.png)
+
+## 5. How to clean up
 
 You may want to clean up the Docker container and Docker image after you finish the program.
 
