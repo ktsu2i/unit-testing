@@ -1,10 +1,8 @@
 services:
-  main:
+  app:
     build:
       context: .
       dockerfile: Dockerfile
-    container_name: main
-    tty: true
     volumes:
       - .:/app
       - /app/node_modules
