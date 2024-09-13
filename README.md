@@ -91,7 +91,7 @@ Run the following command to go inside the container.
 docker-compose run --rm -it app bash
 ```
 
-Then, run the following command to run `main.ts`.
+Then, run the following command to execute `main.ts`.
 
 ```
 npx ts-node src/main.ts
