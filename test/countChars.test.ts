@@ -30,12 +30,12 @@ test("'<input id=3296 />' should return 15", () => {
   expect(countChars("<input id=3296 />")).toBe(15);
 });
 
-// Only one space
+// only one space
 test("' ' should return 0", () => {
   expect(countChars(" ")).toBe(0);
 });
 
-// Many spaces
+// multiple spaces
 test("'    ' should return 0", () => {
   expect(countChars("    ")).toBe(0);
 });
