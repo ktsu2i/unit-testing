@@ -62,13 +62,13 @@ git clone https://github.com/ktsu2i/unit-testing.git
 ## 2. Run the test codes
 
 Go to the cloned repository and run the Docker Compose.
+For the first time to run the program, it might take time to finish building the Docker image.
 
 ```
 cd unit-testing
 docker-compose up --build
 ```
 
-For the first time to run the program, it might take time to finish building the Docker image.
 After you build the Docker image, you can also run the program with the following command.
 
 ```
