@@ -30,6 +30,11 @@ test("'<input id=3296 />' should return 15", () => {
   expect(countChars("<input id=3296 />")).toBe(15);
 });
 
+// non-English characters
+test("'こんにちは' should return 5", () => {
+  expect(countChars("こんにちは")).toBe(5);
+});
+
 // only one space
 test("' ' should return 0", () => {
   expect(countChars(" ")).toBe(0);
