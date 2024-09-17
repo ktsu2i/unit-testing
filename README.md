@@ -79,7 +79,7 @@ docker-compose up
 
 Once you run the program, the docker container automatically ends, but you can still see the result on your CLI like this.
 
-![result](result.png)
+![result](images/result.png)
 
 As you can see above, the program ran successfully and passed all the tests.
 
@@ -99,7 +99,7 @@ npx ts-node src/main.ts
 
 You will be asked `Enter string: ` so that you can input string and see the result.
 
-![run main program](main.png)
+![run main program](images/main.png)
 
 To exit the container, just type `exit`.
 
@@ -107,7 +107,7 @@ To exit the container, just type `exit`.
 exit
 ```
 
-![exit](exit.png)
+![exit](images/exit.png)
 
 ## 5. How to clean up
 
