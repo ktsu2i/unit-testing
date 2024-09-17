@@ -11,23 +11,23 @@ test("'this is testing' should return 13", () => {
 });
 
 // characters & symbols, no spaces
-test("'testing...!!' should return 7", () => {
-  expect(countChars("testing...!!")).toBe(7);
+test("'testing...!!' should return 12", () => {
+  expect(countChars("testing...!!")).toBe(12);
 });
 
 // all numbers, no spaces
-test("'12345' should return 0", () => {
-  expect(countChars("12345")).toBe(0);
+test("'12345' should return 5", () => {
+  expect(countChars("12345")).toBe(5);
 });
 
 // symbols & numbers, with spaces
-test("'1 + 2 = 3' should return 0", () => {
-  expect(countChars("1 + 2 = 3")).toBe(0);
+test("'1 + 2 = 3' should return 5", () => {
+  expect(countChars("1 + 2 = 3")).toBe(5);
 });
 
 // characters, numbers, & symbols, with spaces
-test("'<input id=3296 />' should return 7", () => {
-  expect(countChars("<input id=3296 />")).toBe(7);
+test("'<input id=3296 />' should return 15", () => {
+  expect(countChars("<input id=3296 />")).toBe(15);
 });
 
 // only one space

@@ -3,7 +3,7 @@ export function countChars(s: string): number {
   const chars = s.toLowerCase().split("");
 
   for (const c of chars) {
-    if (c.match(/[a-z]/)) {
+    if (c !== " ") {
       count++;
     }
   }

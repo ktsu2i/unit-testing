@@ -99,7 +99,7 @@ npx ts-node src/main.ts
 
 You will be asked `Enter string: ` so that you can input string and see the result.
 
-![run main program](run-main.png)
+![run main program](main.png)
 
 To exit the container, just type `exit`.
 
